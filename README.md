@@ -14,6 +14,8 @@ To run this file currently you need
 - torch
 - torchvision
 - matplotlib
-- Seaborn
+- sklearn
 
-This code will use GPU for training, so to get better performance install pytorch and torchvision with CUDA support.
+This code will use GPU for training, so you should install pytorch and torchvision with CUDA support.
+
+My model have 5 conv layers with 3 dense layers.
