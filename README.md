@@ -15,7 +15,12 @@ To run this file currently you need
 - torchvision
 - matplotlib
 - sklearn
+- numpy
+- seaborn
+- optuna
 
 This code will use GPU for training, so you should install pytorch and torchvision with CUDA support.
 
-My model have 5 conv layers with 3 dense layers.
+My model have 5 conv layers with 1 dense layers. This model I received during manual and automatic(Optuna) hyperparameter tuning.
+
+There is also a transfer learning model with ResNet50.
